@@ -303,12 +303,12 @@ const authors = [
             {/* Il faut map, pour générer plusieurs cards, ici c'est pour afficher une card */}
             {authors.map((a) => (
             
-             <Card key={a.id} className="max-w-sm mx-auto my-4 bg-[#1A202C] transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
+            {/* <Card key={a.id} className="max-w-sm mx-auto my-4 bg-[#1A202C] transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-xl">
                 <CardBody className="flex flex-col items-center">
-                  <div className="w-24 h-24 mb-4">
+                  <div className="w-24 h-24 mb-4"> */}
                     {/* On affiche l'image de l'auteur dans la src et le nom dans le alt */}
-                    <img src={a.authorImageUrl} alt={a.author} className="rounded-full shadow-lg" />
-                  </div>
+                   {/* <img src={a.authorImageUrl} alt={a.author} className="rounded-full shadow-lg" /> */}
+                  {/*</div>
                   <Typography variant="h5" className="mb-2 text-center text-[#E11D48]">
                      {a.author} 
                   </Typography>
@@ -320,15 +320,14 @@ const authors = [
                 </CardFooter>
               </Card>
             
-            ))}
+            ))} */}
              
 
-          </div>
-        </div>
-      </div>
-    );
-  };
+          // </div>
+        // </div>
+      // </div>
+    // );
+  // }; */}
   
-  export default Author;
+ {/* export default Author;*/}
 
-*/}

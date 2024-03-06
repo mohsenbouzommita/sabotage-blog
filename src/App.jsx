@@ -37,39 +37,3 @@ const App = () =>  {
 }
 
 export default App
-
-{/*
-import {Routes, Route} from "react-router-dom"
-import 'tailwindcss/tailwind.css'
-import './App.css'
-import Home from "./pages/Home"
-import Articles from "./pages/Articles"
-import Article from "./pages/Article"
-import Contact from "./pages/Contact"
-import Author from "./pages/Author"
-import MenuCustom from "./components/MenuCustom"
-import Footer from "./components/Footer"
-
-// Faire votre système de pages, routes, route ici
-// Toutes les routes à créer correspondent au dossier pages donc 5 routes à faire
-const App = () =>  {
-
-  return (
-    <>
-    <MenuCustom />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/articles" element={<Articles />} />
-      <Route path="/article/:id" element={<Article />} />
-      <Route path="/auteurs" element={<Author />} />
-      <Route path="/contact" element={<Contact />} />
-      
-    </Routes>
-      <Footer />
-   </>
-  )
-}
-
-export default App
-
-*/}

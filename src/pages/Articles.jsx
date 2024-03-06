@@ -335,12 +335,11 @@ const Articles = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Ici vous appelez le composant <LatestArticles /> avec la props et le nouveau tableau filtré :)  */}
-          <LatestArticles arrayArticles={filteredArticles} />
-          </div>
-        </div>
-      </div>
-    );
-  };
+          // <LatestArticles arrayArticles={filteredArticles} />
+          // </div>
+        // </div>
+      // </div>
+    // );
+  // };
   
-  export default Articles;
-*/}
+  // export default Articles;
